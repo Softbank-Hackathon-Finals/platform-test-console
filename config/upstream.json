@@ -1,0 +1,31 @@
+{
+  "repository": "https://github.com/Softbank-Hackathon-Finals/platform.git",
+  "rules_ref": "develop",
+  "execution_ref": "bb9a005130686cafeaab90311cdb7a899e3626a8",
+  "recorded_at": "2026-11-06",
+  "execution_ref_status": "초기 참조값; 실환경 호환성·배포·인수는 미검증",
+  "sources": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "docs/tasks.md",
+    "docs/development.md",
+    "docs/contracts/README.md",
+    "docs/ci.md",
+    "docs/public-evidence-policy.md",
+    "docs/review-routing.md",
+    "docs/review-playbook.md",
+    ".agents/skills/todo-task/SKILL.md",
+    ".agents/skills/pr-review/SKILL.md",
+    ".gitignore",
+    ".gitattributes",
+    ".github/workflows/ci.yml"
+  ],
+  "entry_points": [
+    "services/console/README.md",
+    "services/platform-events/README.md",
+    "services/cutover-executor/README.md",
+    "services/rehearsal-runner/README.md",
+    "operations/subscription/README.md",
+    "infra/envs/onprem/README.md"
+  ]
+}
